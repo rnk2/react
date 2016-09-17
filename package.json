@@ -1,0 +1,49 @@
+{
+  "name": "commute",
+  "version": "1.0.0",
+
+  "description": "sharing issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnk2/react.git"
+  },
+  "author": "naresh meru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rnk2/react/issues"
+  },
+
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-run": "1.7.1",
+    "gulp-less": "3.1.0",
+    "gulp-concat": "2.6.0",
+    "gulp-uglify": "2.0.0",
+    "gulp-minify-css": "1.2.4",
+    "gulp-jshint": "2.0.1",
+    "browser-sync": "2.16.0",
+    "browserify": "13.1.0",
+    "vinyl-source-stream": "1.1.0",
+    "vinyl-buffer": "1.0.0",
+    "reactify": "1.1.1",
+    "del": "2.2.2 "
+  },
+
+  "paths": {
+    "less": "assets/less/*.less",
+    "js": "./app/**/*.js",
+    "jsx": "./app/**/*.jsx",
+    "app": "./app/app.js",
+    "html": "*.html"
+  },
+  "dest": {
+    "style": "style.css",
+    "app": "app.js",
+    "dist": "dist"
+  }
+  "homepage": "https://github.com/rnk2/react#readme"
+}
